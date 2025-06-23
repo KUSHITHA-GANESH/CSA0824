@@ -1,0 +1,10 @@
+mark= int(input("Enter your mark out of 100: "))
+cat= input("Enter your category(general/sports): ")
+if(cat=="sports"):
+    mark+=5
+print("total mark: ",mark)
+
+Output:
+Enter your mark out of 100: 93
+Enter your category(general/sports): sports
+total mark:  98

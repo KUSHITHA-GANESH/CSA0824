@@ -1,0 +1,11 @@
+light=input("Enter the colour of the light(green,yellow,red): ")
+if(light=="green"):
+    print("Go.")
+elif(light=="yellow"):
+    print("Wait.")
+else:
+    print("Stop.")
+
+Output:
+Enter the colour of the light(green,yellow,red): red
+Stop.

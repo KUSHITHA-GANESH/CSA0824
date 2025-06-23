@@ -1,0 +1,11 @@
+a= int(input("Enter the value of a: "))
+b= int(input("Enter the value of b: "))
+if(a<b):
+    print("B is greater than A.")
+else:
+    print("A is greater than B.")
+
+Output:
+Enter the value of a: 20
+Enter the value of b: 10
+A is greater than B.

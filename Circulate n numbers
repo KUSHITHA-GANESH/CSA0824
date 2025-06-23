@@ -1,0 +1,15 @@
+def circular_rotate(numbers, k):
+    n = len(numbers)
+    k = k % n
+    return numbers[-k:] + numbers[:-k]
+
+nums = [1, 2, 3, 4, 5]
+rotate_by = 2
+rotated_list = circular_rotate(nums, rotate_by)
+
+print("Original list:", nums)
+print(f"List after rotating by {rotate_by} positions:", rotated_list)
+
+Output:
+Original list: [1, 2, 3, 4, 5]
+List after rotating by 2 positions: [4, 5, 1, 2, 3]

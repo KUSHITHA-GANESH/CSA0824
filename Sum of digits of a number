@@ -1,0 +1,11 @@
+num=int(input("Enter the number: "))
+sum=0
+while(num>0):
+    rem=num%10
+    sum+=rem
+    num//=10
+print("sum of digitis of a number: ", sum)
+
+Output:
+Enter the number: 123
+sum of digitis of a number:  6

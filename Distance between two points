@@ -1,0 +1,14 @@
+import math
+x1=int(input("enter the x1 coordinate:"))
+x2=int(input("enter the x2 coordinate:"))
+y1=int(input("enter the y1 coordinate:"))
+y2=int(input("enter the y2 coordinate:"))
+dis= math.sqrt((x2-x1)**2 + (y2-y1)**2)
+print(dis)
+
+Output:
+enter the x1 coordinate:1
+enter the x2 coordinate:3
+enter the y1 coordinate:2
+enter the y2 coordinate:5
+3.605551275463989

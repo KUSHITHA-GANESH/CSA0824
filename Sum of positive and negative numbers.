@@ -1,0 +1,38 @@
+pos_sum=0
+pos_count=0
+neg_sum=0
+neg_count=0
+print("enter the number( enter -1 to stop):")
+while True :
+    num=int(input())
+    if num==-1:
+        break
+    if num>0:
+        pos_sum+=num
+        pos_count+=1
+    elif num<0:
+        neg_sum+=num
+        neg_count+=1
+if pos_count>0:
+        pos_avg=pos_sum/pos_count
+else :
+        pos_avg=0
+if neg_count>0:
+        neg_avg=neg_sum/neg_count
+else :
+        neg_avg=0
+print("pos avg: ",pos_avg)
+print("neg avg: ",neg_avg)
+
+Output:
+enter the number( enter -1 to stop):
+2
+3
+6
+-5
+-6
+8
+-4
+-1
+pos avg:  4.75
+neg avg:  -5.0

@@ -1,0 +1,8 @@
+purchase= int(input("enter the purchase amount: "))
+if(purchase>=2000):
+    purchase-=500
+print("total amount to be paid: ", purchase)
+
+Output:
+enter the purchase amount: 2500
+total amount to be paid:  2000
